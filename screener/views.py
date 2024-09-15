@@ -14,3 +14,7 @@ def test(request):
   template = loader.get_template('test.html')
   return HttpResponse(template.render())
 
+
+def ticket(request):
+  template = loader.get_template('ticket.html')
+  return HttpResponse(template.render())
